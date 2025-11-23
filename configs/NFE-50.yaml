@@ -1,0 +1,34 @@
+# Configuration for NFE=50
+# CFG config will be inherited by other methods and overridden by their specific params
+
+CFG:
+  guidance_scale: 5.5
+  num_inference_steps: 50
+  image_size: 1024
+  seed: 42
+
+CFG++:
+  guidance_lambda: 0.6
+
+Z-sampling:
+  guidance_scale: 5.5
+  inv_guidance_scale: 0
+  lambda_step: 12
+  T_max: 1
+  num_inference_steps: 25
+
+Resample:
+  guidance_scale: 5.5
+  inv_guidance_scale: 0
+  lambda_step: 25
+  T_max: 1
+  num_inference_steps: 25
+
+Foresight-sampling:
+  guidance_scale: 5.5
+  inv_guidance_scale: 0
+  guidance_lambda: 1.0
+  num_inference_steps: 40
+  foresight_scheduler: "[[0, 5, 2], [5, 5, 2], [15, 5, 1]]"
+  foresight_steps: 1
+

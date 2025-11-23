@@ -1,0 +1,12 @@
+torch==2.8.0
+torchvision==0.23.0
+torchaudio==2.8.0
+diffusers
+transformers
+scipy
+timm
+accelerate
+einops
+tqdm
+PyYAML>=6.0
+Pillow>=9.0
