@@ -1,9 +1,15 @@
+<div align="center">
+
 # Foresight Guidance (FSG)
 
 [![NeurIPS 2025](https://img.shields.io/badge/NeurIPS-2025%20Spotlight-blue)](https://neurips.cc/virtual/2025/loc/san-diego/poster/115124)
 [![arXiv](https://img.shields.io/badge/arXiv-2510.21512-b31b1b.svg)](https://arxiv.org/abs/2510.21512)
 
 Official implementation of **"Towards a Golden Classifier-Free Guidance Path via Foresight Fixed Point Iterations"**, accepted as a **Spotlight** paper at **NeurIPS 2025**.
+
+<img src="./fig/teaser.jpeg" alt="Teaser" width="100%"/>
+
+</div>
 
 
 
